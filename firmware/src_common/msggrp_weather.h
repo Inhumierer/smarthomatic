@@ -342,9 +342,9 @@ static inline int32_t msg_weather_owtemperature_get_temperature(void)
 
 // Set Serial (ByteArray)
 // Offset: ((uint16_t)__HEADEROFFSETBITS + 16) / 8, ((uint16_t)__HEADEROFFSETBITS + 16) % 8, length bytes 8
-static inline void msg_weather_owtemperature_set_serial(array * val)
-{
-  array_write_ByteArray(((uint16_t)__HEADEROFFSETBITS + 16) / 8, ((uint16_t)__HEADEROFFSETBITS + 16) % 8, 8, val, bufx);
-}
+//static inline void msg_weather_owtemperature_set_serial(array * val)
+//{
+//  array_write_ByteArray(((uint16_t)__HEADEROFFSETBITS + 16) / 8, ((uint16_t)__HEADEROFFSETBITS + 16) % 8, 8, val, bufx);
+//}
 
 #endif /* _MSGGRP_WEATHER_H */
